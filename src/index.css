@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: "FontOne";
+    src: url("/fonts/WorkSans-Black.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "FontTwo";
+    src: url("/public/fonts/WorkSans-Medium.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "FontThree";
+    src: url("/public/fonts/WorkSans-Light.ttf") format("truetype");
+  }
+  
+  p {
+    font-family: "FontThree", serif;
+  }
+  .btn {
+    font-family: "FontTwo", serif;
+  }
+  h1{
+    font-family: "FontTwo", serif;
+  }
+
+
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .animated-gradient {
+    background: linear-gradient(45deg, #900000, #964400, #928600, #009400, #005580, #590086, #8c0000);
+    background-size: 400% 400%;
+    animation: gradientAnimation 6s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @keyframes shadowAnimation {
+    0% { box-shadow: 0px 0px 10px #ff0000; }
+    25% { box-shadow: 0px 0px 20px #ff7300; }
+    50% { box-shadow: 0px 0px 30px #00ff00; }
+    75% { box-shadow: 0px 0px 20px #00aaff; }
+    100% { box-shadow: 0px 0px 10px #ff0000; }
+  }
+
+  html, body {
+    overflow: hidden;
+  }
+  
+
