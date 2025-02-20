@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Timer from "./Timer";
 import quizData from "../data/quizData";
 import SelectType from "./userInputComps/SelectType";
-import ReUse from "./reUse";
+import ReUse from "./ReUse";
 import InputType from "./userInputComps/InputType";
 import bgImage from '../../public/btnImage.jpeg'
 import { motion } from "framer-motion";
