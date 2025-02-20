@@ -1,6 +1,6 @@
 # Quiz App with Indexed.DB  
 
-[![Live Project](https://img.shields.io/badge/Live%20Project-Click%20Here-brightgreen)](YOUR_LIVE_PROJECT_URL)  
+[![Live Project](https://img.shields.io/badge/Live%20Project-Click%20Here-brightgreen)](https://quiz-app-umber-delta.vercel.app/)  
 
 ## 📌 Overview  
 This is an interactive Quiz App built with **React, IndexedDB, Framer Motion, and Tailwind CSS**. Users can select answers, receive instant feedback, and track their progress. The app includes a **10-second timer per question**, displays **score history**, and allows users to **restart the quiz or reset their history**.  
@@ -24,7 +24,7 @@ This is an interactive Quiz App built with **React, IndexedDB, Framer Motion, an
 ## 🛠 Installation & Usage  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/YOUR_GITHUB_USERNAME/quiz-app.git
+   git clone https://github.com/Daniyalk0/quiz_app.git
    cd quiz-app
 
 2. Install dependencies:  
